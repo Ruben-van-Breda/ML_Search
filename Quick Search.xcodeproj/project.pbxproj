@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5A15170250F8D0700B8D914 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1516F250F8D0700B8D914 /* TableViewController.swift */; };
+		B5A15172250F9AC400B8D914 /* Flowers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5A15171250F9AC400B8D914 /* Flowers.mlmodel */; };
+		B5A15174250FB0AC00B8D914 /* Birds.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5A15173250FB0AC00B8D914 /* Birds.mlmodel */; };
 		B5D655AA250A367B00009BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D655A9250A367B00009BDE /* AppDelegate.swift */; };
 		B5D655AC250A367B00009BDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D655AB250A367B00009BDE /* SceneDelegate.swift */; };
 		B5D655AE250A367B00009BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D655AD250A367B00009BDE /* ViewController.swift */; };
@@ -16,6 +19,10 @@
 		B5D655B9250A367C00009BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D655B7250A367C00009BDE /* LaunchScreen.storyboard */; };
 		B5D655C4250A367C00009BDE /* Quick_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D655C3250A367C00009BDE /* Quick_SearchTests.swift */; };
 		B5D655CF250A367C00009BDE /* Quick_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D655CE250A367C00009BDE /* Quick_SearchUITests.swift */; };
+		B5D655DD250A3A4300009BDE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5D655DC250A3A4300009BDE /* Resnet50.mlmodel */; };
+		B5D655DF250A5C4100009BDE /* Screenshot 2020-08-02 at 15.36.58.png in Resources */ = {isa = PBXBuildFile; fileRef = B5D655DE250A5C4100009BDE /* Screenshot 2020-08-02 at 15.36.58.png */; };
+		B5D655E1250A849700009BDE /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5D655E0250A849700009BDE /* MobileNetV2.mlmodel */; };
+		B5EEFCA7250FCC1000932432 /* Food.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5EEFCA6250FCC1000932432 /* Food.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5A1516F250F8D0700B8D914 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B5A15171250F9AC400B8D914 /* Flowers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Flowers.mlmodel; sourceTree = "<group>"; };
+		B5A15173250FB0AC00B8D914 /* Birds.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Birds.mlmodel; sourceTree = "<group>"; };
 		B5D655A6250A367B00009BDE /* Quick Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D655A9250A367B00009BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5D655AB250A367B00009BDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,10 @@
 		B5D655CA250A367C00009BDE /* Quick SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D655CE250A367C00009BDE /* Quick_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_SearchUITests.swift; sourceTree = "<group>"; };
 		B5D655D0250A367C00009BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D655DC250A3A4300009BDE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		B5D655DE250A5C4100009BDE /* Screenshot 2020-08-02 at 15.36.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2020-08-02 at 15.36.58.png"; sourceTree = "<group>"; };
+		B5D655E0250A849700009BDE /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		B5EEFCA6250FCC1000932432 /* Food.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Food.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +117,16 @@
 			children = (
 				B5D655A9250A367B00009BDE /* AppDelegate.swift */,
 				B5D655AB250A367B00009BDE /* SceneDelegate.swift */,
+				B5D655E0250A849700009BDE /* MobileNetV2.mlmodel */,
+				B5EEFCA6250FCC1000932432 /* Food.mlmodel */,
+				B5D655DC250A3A4300009BDE /* Resnet50.mlmodel */,
+				B5A15173250FB0AC00B8D914 /* Birds.mlmodel */,
+				B5A15171250F9AC400B8D914 /* Flowers.mlmodel */,
 				B5D655AD250A367B00009BDE /* ViewController.swift */,
+				B5A1516F250F8D0700B8D914 /* TableViewController.swift */,
 				B5D655AF250A367B00009BDE /* Main.storyboard */,
 				B5D655B5250A367C00009BDE /* Assets.xcassets */,
+				B5D655DE250A5C4100009BDE /* Screenshot 2020-08-02 at 15.36.58.png */,
 				B5D655B7250A367C00009BDE /* LaunchScreen.storyboard */,
 				B5D655BA250A367C00009BDE /* Info.plist */,
 				B5D655B2250A367B00009BDE /* Quick_Search.xcdatamodeld */,
@@ -238,6 +259,7 @@
 				B5D655B9250A367C00009BDE /* LaunchScreen.storyboard in Resources */,
 				B5D655B6250A367C00009BDE /* Assets.xcassets in Resources */,
 				B5D655B1250A367B00009BDE /* Main.storyboard in Resources */,
+				B5D655DF250A5C4100009BDE /* Screenshot 2020-08-02 at 15.36.58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D655E1250A849700009BDE /* MobileNetV2.mlmodel in Sources */,
+				B5A15174250FB0AC00B8D914 /* Birds.mlmodel in Sources */,
+				B5EEFCA7250FCC1000932432 /* Food.mlmodel in Sources */,
+				B5A15172250F9AC400B8D914 /* Flowers.mlmodel in Sources */,
+				B5A15170250F8D0700B8D914 /* TableViewController.swift in Sources */,
+				B5D655DD250A3A4300009BDE /* Resnet50.mlmodel in Sources */,
 				B5D655AE250A367B00009BDE /* ViewController.swift in Sources */,
 				B5D655AA250A367B00009BDE /* AppDelegate.swift in Sources */,
 				B5D655AC250A367B00009BDE /* SceneDelegate.swift in Sources */,
